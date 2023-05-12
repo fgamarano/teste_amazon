@@ -1,0 +1,39 @@
+
+Caso 1: Finalizar compra sem ter efetuado login
+
+Dado que não estou logada no site
+E eu escolhi o produto que eu desejo
+Quando clicar em Comprar agora
+Então devo ser redirecionada para a tela de login
+
+Caso 2: Finalizar compra pelo carrinho sem ter efetuado o login
+
+Dado que não estou logada no site
+E adicionei o produto que desejo no carrinho
+Quando clico em Fechar pedido 
+Então devo ser redirecionada para a tela de login
+
+Caso 3: Finalizar compra
+
+Dado que estou logada no site
+E eu escolhi o produto que eu desejo
+Quando clicar em Comprar agora
+Então devo conseguir finalizar a compra com sucesso
+
+Caso 4: Finalizar compra pelo carrinho
+
+Dado que estou logada no site
+E adicionei o produto que desejo no carrinho
+Quando clico em Fechar pedido
+Então devo conseguir finalizar a compra com sucesso
+
+Caso 5: Finalizar compra com carrinho vazio
+
+Dado que eu escolhi meu produto
+E adicionei o produto no carrinho
+Quando excluir o produto do carrinho
+Então devo ver a mensagem que o carrinho está vazio
+E não deve me dar a opção de finalizar a compra
+
+
+
